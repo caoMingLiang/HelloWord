@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		40416C921E821A07001EF46E /* GCDStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40416C911E821A07001EF46E /* GCDStudyViewController.m */; };
+		405758F91ECA8B870042DFF0 /* MLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405758F81ECA8B870042DFF0 /* MLBaseViewController.m */; };
+		405758FD1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405758FB1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.m */; };
+		405758FE1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405758FC1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.xib */; };
 		4074D8E51E790D1200AEA54C /* MMInterviewQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074D8E41E790D1200AEA54C /* MMInterviewQuestionsViewController.m */; };
 		4074D8E91E7997E500AEA54C /*  mm1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4074D8E61E7997E500AEA54C /*  mm1.jpeg */; };
 		4074D8EA1E7997E500AEA54C /* mm2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4074D8E71E7997E500AEA54C /* mm2.jpeg */; };
@@ -42,6 +45,11 @@
 /* Begin PBXFileReference section */
 		40416C901E821A07001EF46E /* GCDStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDStudyViewController.h; sourceTree = "<group>"; };
 		40416C911E821A07001EF46E /* GCDStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDStudyViewController.m; sourceTree = "<group>"; };
+		405758F71ECA8B870042DFF0 /* MLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBaseViewController.h; sourceTree = "<group>"; };
+		405758F81ECA8B870042DFF0 /* MLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBaseViewController.m; sourceTree = "<group>"; };
+		405758FA1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLValueAndObjectViewController.h; sourceTree = "<group>"; };
+		405758FB1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLValueAndObjectViewController.m; sourceTree = "<group>"; };
+		405758FC1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLValueAndObjectViewController.xib; sourceTree = "<group>"; };
 		4074D8E31E790D1200AEA54C /* MMInterviewQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMInterviewQuestionsViewController.h; sourceTree = "<group>"; };
 		4074D8E41E790D1200AEA54C /* MMInterviewQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMInterviewQuestionsViewController.m; sourceTree = "<group>"; };
 		4074D8E61E7997E500AEA54C /*  mm1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = " mm1.jpeg"; sourceTree = "<group>"; };
@@ -99,6 +107,34 @@
 			name = "GCD学习";
 			sourceTree = "<group>";
 		};
+		405758FF1ECA8BE50042DFF0 /* WebServices请求 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "WebServices请求";
+			sourceTree = "<group>";
+		};
+		405759001ECA8C000042DFF0 /* TOTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TOTP;
+			sourceTree = "<group>";
+		};
+		405759011ECA8C260042DFF0 /* 静态库StaticLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "静态库StaticLib";
+			sourceTree = "<group>";
+		};
+		405759021ECA8C5A0042DFF0 /* WebRtc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebRtc;
+			sourceTree = "<group>";
+		};
 		4074D8DE1E78F37300AEA54C /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +147,10 @@
 		4074D8DF1E78F38700AEA54C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				40B6D9D61E3893920039B284 /* ViewController.h */,
+				40B6D9D71E3893920039B284 /* ViewController.m */,
+				405758F71ECA8B870042DFF0 /* MLBaseViewController.h */,
+				405758F81ECA8B870042DFF0 /* MLBaseViewController.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -130,6 +170,9 @@
 		407EC2C81ECA888700BC6054 /* Value */ = {
 			isa = PBXGroup;
 			children = (
+				405758FA1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.h */,
+				405758FB1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.m */,
+				405758FC1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.xib */,
 			);
 			name = Value;
 			sourceTree = "<group>";
@@ -157,11 +200,13 @@
 		40B6D9CF1E3893920039B284 /* helloWord */ = {
 			isa = PBXGroup;
 			children = (
+				405759021ECA8C5A0042DFF0 /* WebRtc */,
+				405759011ECA8C260042DFF0 /* 静态库StaticLib */,
+				405759001ECA8C000042DFF0 /* TOTP */,
+				405758FF1ECA8BE50042DFF0 /* WebServices请求 */,
 				407EC2C81ECA888700BC6054 /* Value */,
 				40416C8F1E8219DC001EF46E /* GCD学习 */,
 				4074D8E11E78F41600AEA54C /* 陌陌面试题 */,
-				40B6D9D61E3893920039B284 /* ViewController.h */,
-				40B6D9D71E3893920039B284 /* ViewController.m */,
 				4074D8DF1E78F38700AEA54C /* Tools */,
 				4074D8DE1E78F37300AEA54C /* AppDelegate */,
 				40B6D9D01E3893920039B284 /* Supporting Files */,
@@ -261,11 +306,13 @@
 		40B6D9C51E3893910039B284 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ML;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = caoMingliang;
 				TargetAttributes = {
 					40B6D9CC1E3893910039B284 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KFA4GC58CT;
 						ProvisioningStyle = Automatic;
 					};
 					40B6D9E51E3893920039B284 = {
@@ -309,6 +356,7 @@
 				4074D8E91E7997E500AEA54C /*  mm1.jpeg in Resources */,
 				40B6D9E01E3893920039B284 /* LaunchScreen.storyboard in Resources */,
 				40B6D9DD1E3893920039B284 /* Assets.xcassets in Resources */,
+				405758FE1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.xib in Resources */,
 				40B6D9DB1E3893920039B284 /* Main.storyboard in Resources */,
 				4074D8EB1E7997E500AEA54C /* mm3.jpeg in Resources */,
 			);
@@ -335,7 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405758F91ECA8B870042DFF0 /* MLBaseViewController.m in Sources */,
 				4074D8E51E790D1200AEA54C /* MMInterviewQuestionsViewController.m in Sources */,
+				405758FD1ECA8BCA0042DFF0 /* MLValueAndObjectViewController.m in Sources */,
 				40B6D9D81E3893920039B284 /* ViewController.m in Sources */,
 				40416C921E821A07001EF46E /* GCDStudyViewController.m in Sources */,
 				40B6D9D51E3893920039B284 /* AppDelegate.m in Sources */,
@@ -488,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KFA4GC58CT;
 				INFOPLIST_FILE = helloWord/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KFA4GC58CT;
 				INFOPLIST_FILE = helloWord/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
