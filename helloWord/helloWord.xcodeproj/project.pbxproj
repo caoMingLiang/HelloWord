@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40416C921E821A07001EF46E /* GCDStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40416C911E821A07001EF46E /* GCDStudyViewController.m */; };
+		4074D8E51E790D1200AEA54C /* MMInterviewQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074D8E41E790D1200AEA54C /* MMInterviewQuestionsViewController.m */; };
+		4074D8E91E7997E500AEA54C /*  mm1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4074D8E61E7997E500AEA54C /*  mm1.jpeg */; };
+		4074D8EA1E7997E500AEA54C /* mm2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4074D8E71E7997E500AEA54C /* mm2.jpeg */; };
+		4074D8EB1E7997E500AEA54C /* mm3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4074D8E81E7997E500AEA54C /* mm3.jpeg */; };
 		40B6D9D21E3893920039B284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B6D9D11E3893920039B284 /* main.m */; };
 		40B6D9D51E3893920039B284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B6D9D41E3893920039B284 /* AppDelegate.m */; };
 		40B6D9D81E3893920039B284 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B6D9D71E3893920039B284 /* ViewController.m */; };
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40416C901E821A07001EF46E /* GCDStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDStudyViewController.h; sourceTree = "<group>"; };
+		40416C911E821A07001EF46E /* GCDStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDStudyViewController.m; sourceTree = "<group>"; };
+		4074D8E31E790D1200AEA54C /* MMInterviewQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMInterviewQuestionsViewController.h; sourceTree = "<group>"; };
+		4074D8E41E790D1200AEA54C /* MMInterviewQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMInterviewQuestionsViewController.m; sourceTree = "<group>"; };
+		4074D8E61E7997E500AEA54C /*  mm1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = " mm1.jpeg"; sourceTree = "<group>"; };
+		4074D8E71E7997E500AEA54C /* mm2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm2.jpeg; sourceTree = "<group>"; };
+		4074D8E81E7997E500AEA54C /* mm3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm3.jpeg; sourceTree = "<group>"; };
 		40B6D9CD1E3893920039B284 /* helloWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B6D9D11E3893920039B284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40B6D9D31E3893920039B284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +90,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40416C8F1E8219DC001EF46E /* GCD学习 */ = {
+			isa = PBXGroup;
+			children = (
+				40416C901E821A07001EF46E /* GCDStudyViewController.h */,
+				40416C911E821A07001EF46E /* GCDStudyViewController.m */,
+			);
+			name = "GCD学习";
+			sourceTree = "<group>";
+		};
+		4074D8DE1E78F37300AEA54C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				40B6D9D31E3893920039B284 /* AppDelegate.h */,
+				40B6D9D41E3893920039B284 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4074D8DF1E78F38700AEA54C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		4074D8E11E78F41600AEA54C /* 陌陌面试题 */ = {
+			isa = PBXGroup;
+			children = (
+				4074D8E61E7997E500AEA54C /*  mm1.jpeg */,
+				4074D8E71E7997E500AEA54C /* mm2.jpeg */,
+				4074D8E81E7997E500AEA54C /* mm3.jpeg */,
+				4074D8E31E790D1200AEA54C /* MMInterviewQuestionsViewController.h */,
+				4074D8E41E790D1200AEA54C /* MMInterviewQuestionsViewController.m */,
+			);
+			name = "陌陌面试题";
+			sourceTree = "<group>";
+		};
+		407EC2C81ECA888700BC6054 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Value;
+			sourceTree = "<group>";
+		};
 		40B6D9C41E3893910039B284 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +157,13 @@
 		40B6D9CF1E3893920039B284 /* helloWord */ = {
 			isa = PBXGroup;
 			children = (
-				40B6D9D31E3893920039B284 /* AppDelegate.h */,
-				40B6D9D41E3893920039B284 /* AppDelegate.m */,
+				407EC2C81ECA888700BC6054 /* Value */,
+				40416C8F1E8219DC001EF46E /* GCD学习 */,
+				4074D8E11E78F41600AEA54C /* 陌陌面试题 */,
 				40B6D9D61E3893920039B284 /* ViewController.h */,
 				40B6D9D71E3893920039B284 /* ViewController.m */,
-				40B6D9D91E3893920039B284 /* Main.storyboard */,
-				40B6D9DC1E3893920039B284 /* Assets.xcassets */,
-				40B6D9DE1E3893920039B284 /* LaunchScreen.storyboard */,
-				40B6D9E11E3893920039B284 /* Info.plist */,
+				4074D8DF1E78F38700AEA54C /* Tools */,
+				4074D8DE1E78F37300AEA54C /* AppDelegate */,
 				40B6D9D01E3893920039B284 /* Supporting Files */,
 			);
 			path = helloWord;
@@ -117,6 +172,10 @@
 		40B6D9D01E3893920039B284 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40B6D9D91E3893920039B284 /* Main.storyboard */,
+				40B6D9DC1E3893920039B284 /* Assets.xcassets */,
+				40B6D9DE1E3893920039B284 /* LaunchScreen.storyboard */,
+				40B6D9E11E3893920039B284 /* Info.plist */,
 				40B6D9D11E3893920039B284 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,9 +305,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4074D8EA1E7997E500AEA54C /* mm2.jpeg in Resources */,
+				4074D8E91E7997E500AEA54C /*  mm1.jpeg in Resources */,
 				40B6D9E01E3893920039B284 /* LaunchScreen.storyboard in Resources */,
 				40B6D9DD1E3893920039B284 /* Assets.xcassets in Resources */,
 				40B6D9DB1E3893920039B284 /* Main.storyboard in Resources */,
+				4074D8EB1E7997E500AEA54C /* mm3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +335,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4074D8E51E790D1200AEA54C /* MMInterviewQuestionsViewController.m in Sources */,
 				40B6D9D81E3893920039B284 /* ViewController.m in Sources */,
+				40416C921E821A07001EF46E /* GCDStudyViewController.m in Sources */,
 				40B6D9D51E3893920039B284 /* AppDelegate.m in Sources */,
 				40B6D9D21E3893920039B284 /* main.m in Sources */,
 			);
@@ -509,6 +573,7 @@
 				40B6D9FC1E3893920039B284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40B6D9FD1E3893920039B284 /* Build configuration list for PBXNativeTarget "helloWordTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +582,7 @@
 				40B6D9FF1E3893920039B284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40B6DA001E3893920039B284 /* Build configuration list for PBXNativeTarget "helloWordUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +591,7 @@
 				40B6DA021E3893920039B284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
