@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import <AVFoundation/AVFoundation.h>
+
+
 @interface AppDelegate ()
 
 @end
@@ -35,6 +38,10 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+   
+    //使程序重新激活后，对音量实体键响应为“音量”而不是“铃声”
+    [[AVAudioSession sharedInstance] setActive:YES error:NULL];
+
 }
 
 

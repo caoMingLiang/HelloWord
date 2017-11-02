@@ -1,27 +1,32 @@
 //
-//  MLValueAndObjectViewController.m
+//  MLNSErrorViewController.m
 //  helloWord
 //
-//  Created by 曹明亮 on 2017/5/16.
+//  Created by 曹明亮 on 2017/11/2.
 //  Copyright © 2017年 caoMingliang. All rights reserved.
 //
 
-#import "MLValueAndObjectViewController.h"
+#import "MLNSErrorViewController.h"
 
-@interface MLValueAndObjectViewController ()
+@interface MLNSErrorViewController ()
 
 @end
 
-@implementation MLValueAndObjectViewController
+@implementation MLNSErrorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
- 
-    
+    NSError * error = nil;
+    BOOL ret = [self doSomething:&error];
+    if (error) {
+        
+    }
 }
-
+- (BOOL)doSomething:(NSError **)error {
+    return YES;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
