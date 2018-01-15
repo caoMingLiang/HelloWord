@@ -18,11 +18,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    //error
     NSError * error = nil;
     BOOL ret = [self doSomething:&error];
     if (error) {
         
     }
+    
+    //
+    NSArray * array = @[@"1", @"2", @3];
+    [array enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        *stop = YES;
+    }];
+    
+    
+    
+    
+    
 }
 - (BOOL)doSomething:(NSError **)error {
     return YES;
